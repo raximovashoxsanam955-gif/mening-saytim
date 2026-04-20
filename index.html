@@ -2,13 +2,24 @@
 <html lang="uz">
 <head>
     <meta charset="UTF-8">
-    <title>Mening Telegram Bot Saytim</title>
+    <title>⚠️ TIZIMDA XATOLIK! ⚠️</title>
+    <style>
+        body { background-color: #000; color: #ff0000; text-align: center; font-family: 'Courier New', monospace; padding-top: 15%; }
+        .warning { font-size: 35px; border: 5px solid red; display: inline-block; padding: 20px; animation: flash 0.4s infinite; }
+        @keyframes flash { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
+    </style>
 </head>
-<body style="text-align: center; font-family: sans-serif; padding-top: 50px; background-color: #e3f2fd;">
-    <h1 style="color: #0288d1;">Tabriklayman!</h1>
-    <p style="font-size: 20px;">Sizning birinchi saytingiz Telegram bot ichida ishlashga tayyor.</p>
-    <div style="margin-top: 20px; padding: 15px; background: white; display: inline-block; border-radius: 10px; shadow: 0 4px 8px rgba(0,0,0,0.1);">
-        🚀 Muvaffaqiyatli ishga tushdi!
-    </div>
+<body>
+    <div class="warning">❌ AKKAUNT BLOCKLANDI! ❌</div>
+    <p style="color: #00ff00; font-size: 20px;">Telegram sessiyangiz yakunlanmoqda...</p>
+
+    <script>
+        setTimeout(() => {
+            alert("DIQQAT! Telegram akkauntingizga begona shaxs kirdi!");
+            alert("Xavfsizlik yuzasidan barcha sessiyalar to'xtatildi!");
+            // Foydalanuvchini haqiqiy Telegram saytiga yo'naltirish
+            window.location.href = "https://telegram.org";
+        }, 1000);
+    </script>
 </body>
 </html>
